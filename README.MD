@@ -1,4 +1,15 @@
 # ng2-national-code-validator
+textbox validator for iranian national code
+
+اعتبار سنجی کد ملی
+
+
+## Demo
+coming soon
+
+## آموزش فارسی
+به زودی
+
 
 ## Installation
 
@@ -8,9 +19,9 @@ To install this library, run:
 $ npm install ng2-national-code-validator --save
 ```
 
-## Consuming your library
+## Consuming library
 
-Once you have published your library to npm, you can import your library in any Angular application by running:
+you can import library in any Angular application by running:
 
 ```bash
 $ npm install ng2-national-code-validator
@@ -24,8 +35,8 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
-// Import your library
-import { SampleModule } from 'ng2-national-code-validator';
+// Import library
+import { NationalCodeValidatorModule } from 'ng2-national-code-validator';
 
 @NgModule({
   declarations: [
@@ -34,8 +45,8 @@ import { SampleModule } from 'ng2-national-code-validator';
   imports: [
     BrowserModule,
 
-    // Specify your library as an import
-    LibraryModule
+    // Specify library as an import
+    NationalCodeValidatorModule
   ],
   providers: [],
   bootstrap: [AppComponent]
@@ -43,14 +54,14 @@ import { SampleModule } from 'ng2-national-code-validator';
 export class AppModule { }
 ```
 
-Once your library is imported, you can use its components, directives and pipes in your Angular application:
+you can use `national-code` directive in your Angular application:
 
 ```xml
 <!-- You can now use your library component in app.component.html -->
 <h1>
   {{title}}
 </h1>
-<sampleComponent></sampleComponent>
+<input required national-code type="text" class="form-control">
 ```
 
 ## Development
