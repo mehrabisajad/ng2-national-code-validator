@@ -1,0 +1,27 @@
+{
+  "name": "ng2-national-code-validator",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mehrabisajad/ng2-national-code-validator"
+  },
+  "author": {
+    "name": "Sajad Mehrabi",
+    "email": "mehrabisajad@outlook.com"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mehrabisajad/ng2-national-code-validator/issues"
+  },
+  "module": "ng2-national-code-validator.js",
+  "typings": "ng2-national-code-validator.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "@angular/forms": "^4.0.0",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  }
+}
